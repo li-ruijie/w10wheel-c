@@ -125,3 +125,4 @@ jobs:
         with:
           name: tpkb-v${{ inputs.version }}-${{ matrix.compiler }}
           path: build/tpkb.exe
+          retention-days: 1
